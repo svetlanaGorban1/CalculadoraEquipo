@@ -36,6 +36,7 @@ public class CalculadorEquipo {
         } else {
             System.out.println("Error: No se puede dividir entre cero");
             return 0;
+            
         }
     }
 }
