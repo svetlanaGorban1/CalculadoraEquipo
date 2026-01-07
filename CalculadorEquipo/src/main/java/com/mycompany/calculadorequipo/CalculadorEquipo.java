@@ -46,6 +46,10 @@ public class CalculadorEquipo {
                         } else {
                             System.out.println("Error: No se puede dividir entre cero");
 
+    //1
+    // Función para restar dos números
+    public static double restar(double num1, double num2) {
+        return num1 - num2;
                         }
                     }
                 }
