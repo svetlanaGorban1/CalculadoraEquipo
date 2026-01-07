@@ -23,6 +23,7 @@ public class CalculadorEquipo {
         return num1 + num2;
     }
 
+    
     // Función para restar dos números
     public static double restar(double num1, double num2) {
         return num1 - num2;
