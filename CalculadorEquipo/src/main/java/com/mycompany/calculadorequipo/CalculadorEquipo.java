@@ -97,6 +97,33 @@ public class CalculadorEquipo {
      * @return la diferencia entre num1 y num2 (num1 - num2)
      */
     // Función para dividir dos números
+    
+    
+    
+    /**
+ * Multiplica dos números decimales.
+ * 
+ * @param num1 primer factor de la multiplicación
+ * @param num2 segundo factor de la multiplicación
+ * @return el producto de num1 por num2
+ */
+ public static double multiplicar(double num1, double num2) {
+ return num1 * num2;
+ }
+    
+    
+    /**
+ * Divide dos números decimales.
+ * Si el divisor es cero, muestra un mensaje de error y retorna 0.
+ * 
+ * @param num1 el dividendo (número a dividir)
+ * @param num2 el divisor (número por el que se divide)
+ * @return el cociente de num1 entre num2, o 0 si num2 es cero
+ */
+
+    
+    
+    
     public static double dividir(double num1, double num2) {
         if (num2 != 0) {
             return num1 / num2;
